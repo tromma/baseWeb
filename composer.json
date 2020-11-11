@@ -1,0 +1,8 @@
+{
+    "require": {
+        "filp/whoops": "^2.7",
+        "altorouter/altorouter": "^2.0",
+        "nette/robot-loader": "^3.3",
+        "larapack/dd": "^1.1"
+    }
+}
