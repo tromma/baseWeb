@@ -10,7 +10,7 @@ return array (
     'App\\Router' => 
     array (
       'file' => '../src/Router.php',
-      'time' => 1601644922,
+      'time' => 1611861096,
     ),
   ),
   1 => 

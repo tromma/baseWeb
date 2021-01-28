@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Aliandra";
+    src: url("/assets/Aliandra.ttf");
+ }
+ @font-face {font-family: "URWGordon"; src: url("//db.onlinewebfonts.com/t/3cfc620fc3c3060d67230ad0c8205927.eot"); src: url("//db.onlinewebfonts.com/t/3cfc620fc3c3060d67230ad0c8205927.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3cfc620fc3c3060d67230ad0c8205927.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3cfc620fc3c3060d67230ad0c8205927.woff") format("woff"), url("//db.onlinewebfonts.com/t/3cfc620fc3c3060d67230ad0c8205927.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3cfc620fc3c3060d67230ad0c8205927.svg#URWGordonW01-Condensed") format("svg"); }
+.title,.content{
+    font-family: 'Aliandra' ;
+}
+
+.fontP{
+    font-family: 'URWGordon';
+}
+.allAcceuil{
+
+    background-image: url('/assets/images/fondAcceuilFlou.jpg');
+    opacity: 0.7;
+
+    height: 100vh;
+    width: 100wh;
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    padding-top: 25px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.lienNav{
+    color: black;
+    text-decoration: none;
+    list-style: none; 
+    opacity: 1;  
+}
+.lienNav:hover{
+    color:#b08b47;
+    cursor: crosshair;;
+}
+.lienNav:link{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/*DROPDOWN*/
+.down-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f181;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .down-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }/* 
+  .down-menu a:hover {background-color: #ddd;} */
+
+  .menu:hover .down-menu{display: block;}
+  /*FIN DROPDOWN*/
+
+  .title{
+      text-align: center;
+      margin-top: 20vh;
+      font-size: 10em;
+      color: #f8d6b8;
+  }
+  .content{
+    text-align: center;
+    font-size: 2em;
+    color: #f8d6b8;
+  }
+
+  .img1 ,.img2, .img3, .img4,.img5,.img6{
+      position: absolute;
+  }
+
+  .img1{
+      top: 250px;
+      left: 100px;
+      transform: rotate(25deg);
+  }
+  .img2{
+      top: 500px;
+      left: 120px;
+      transform: rotate(25deg);
+  }
+
+  .img3{
+    top: 250px;
+    right: 100px;
+    transform: rotate(-25deg);
+}
+.img4{
+    top: 500px;
+    right: 120px;
+    transform: rotate(-25deg);
+}
+.img5{
+    top: 650px;
+    right: 35%;
+    transform: rotate(-15deg);
+}
+.img6{
+    top: 650px;
+    left: 35%;
+    transform: rotate(15deg);
+}

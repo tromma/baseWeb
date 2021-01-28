@@ -24,7 +24,7 @@ $router = new App\Router(dirname(__DIR__) . '/views');
 
 $router
     ->get('/','main/index','home')
-
+    ->get('/test','main/test','test')
     ->run();
     
 
